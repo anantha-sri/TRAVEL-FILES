@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.62),rgba(0,0,0,0.62)),url(forest.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    margin: 10px 20px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+nav img{
+    width: 100px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: lighter;
+    font-size: 16px;
+    font-weight: 100px;
+    padding: 20px 10px;
+    font-family: sans-serif;
+}
+.btn{
+    background-color: rgb(222, 164, 18);
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgb(58, 42, 42);
+}
+a:hover{
+    color: goldenrod;
+}
+.btn:hover{
+    background-color: rgb(73, 101, 30);
+}
+.details{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 70px;
+    font-size: 20px;
+}
+h1{
+    font-size: 500%;
+    font-family: cursive;
+    line-height: 100px;
+    margin-top: -50px;
+}
+span{
+    color: orangered;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: rgb(186, 183, 183);
+}
+.infobox{
+    color: white;
+    
+}
+form{
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    display: flex;
+    background-color: rgba(73, 38, 38, 0.53);
+    padding: 20px;
+    border-radius: 10px;
+}
+.infobox img{
+    width: 20px;
+    padding: 10px;
+}
+.location label{
+    display: block;
+    color: rgb(186, 183, 183);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.date label{
+    display: block;
+    color: rgb(186, 183, 183);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.searchbtn{
+    margin-top: 15px;
+
+}
+.infobox a{
+    background-color: orangered;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: ridge;
+    border-color: rgba(28, 24, 24, 0.699);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.location input{
+    box-shadow: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.date input{
+    box-shadow: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.ellipse img{
+    width: 400px;
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+}
+.pic img{
+    width: 120%;
+    position: absolute;
+    bottom: -16%;
+    right: -10%;
+}
